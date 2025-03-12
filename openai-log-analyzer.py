@@ -10,7 +10,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.pipeline import make_pipeline
 
 class LogAnalyzer:
-    def __init__(self, log_file, api_key, model_file="log_classifier.pkl"):
+    def __init__(self, log_file, api_key, model_file="models/log_classifier.pkl"):
         self.log_file = log_file
         self.logs = []
         self.api_key = api_key
